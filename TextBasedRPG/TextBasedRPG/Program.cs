@@ -28,7 +28,7 @@ public class RPG
 
                 Console.WriteLine($"{player.UnitName} HP = {player.HP}.\n{enemy1.UnitName} HP = {enemy1.HP}");
                 Console.WriteLine("Player's turn, What will you do?\nPress A to Attack or Press D to Heal");
-                string choice = Console.ReadLine();
+                var choice = Console.ReadLine();
 
                 //var result = choice == "a" ? player.Attack(enemy1) : choice == "d" ? player.Heal : player.UserInput;
                 if (choice == "a")
@@ -66,7 +66,7 @@ public class RPG
                 {
                     Console.WriteLine($"{player.UnitName} HP = {player.HP}.\n{enemy2.UnitName} HP = {enemy2.HP}");
                     Console.WriteLine("Player's turn, What will you do?\nPress A to Attack or Press D to Heal");
-                    string choice2 = Console.ReadLine();
+                    var choice2 = Console.ReadLine();
 
                     if (choice2 == "a")
                     {
